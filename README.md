@@ -1,5 +1,6 @@
 Here you can find different ways of solving some of the exercises we went through during the last "Node Workshops" meetup (http://www.meetup.com/NodeWorkshops/events/230170170/)
 
-If you are using Cloud9 and you want to try to access your web app you can run the server this way (see examples in the code):
+To make your application publically accessible, Cloud9 provides a public url. You just need to run it using this PORT and IP,
+and start it pressing the ``Run`` button in the top menu:
 
 ```app.listen(process.env.PORT, process.env.IP)```
