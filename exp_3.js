@@ -14,5 +14,8 @@ app.get('/home', function(req, res) {
 })
 app.listen(process.argv[2])
 
+// To make your application publically accessible, Cloud9
+// provides a public url. You just need to run it using this PORT and IP,
+// and start the app pressing the ``Run`` button in the top menu.
 // app.listen(process.env.PORT, process.env.IP)
 
